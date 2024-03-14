@@ -1,0 +1,41 @@
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #110000;
+    border-radius: 5px;
+}
+
+h2{
+    text-align: center;
+}
+/* Style for form labels */
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+/* Style for form inputs */
+input[type="text"],
+textarea,
+input[type="date"],
+input[type="number"] {
+    width: 200px; /* Adjust width to leave space for label */
+    margin-bottom: 10px;
+}
+
+/* Style for form submit button */
+input[type="submit"] {
+    width: 100px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
